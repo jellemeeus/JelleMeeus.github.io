@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="container page">
+  <div class="container page">
     <div class="row">
         <div class="col-md-6 col-print-6">
             <h1>{{ name }}<br/>{{ title }}</h1>
@@ -18,7 +18,13 @@
                 <time datetime="{{ buildinfo.date }}" class="text-muted">Last update: {{ updated }}</time>
             </p>
             <p>
-                <span class="screen"><a href="{{ pdfFileName }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download PDF version</a></span>
+            <!--    <span class="screen"><a href="{{ pdfFileName }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download PDF version</a></span> -->
+
+                <span class="screen"><a href="{{ pdfFileName_EN }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download PDF version (English)</a></span>
+                <span class="print">The online version is available at <a href="{{ baseUrl }}" class="text-nowrap"><i
+                    class="fa fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
+                &nbsp;
+                <span class="screen"><a href="{{ pdfFileName_NL }}"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Download PDF versie (Nederlands)</a></span>
                 <span class="print">The online version is available at <a href="{{ baseUrl }}" class="text-nowrap"><i
                     class="fa fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
             </p>
@@ -37,7 +43,7 @@
     <div class="row mb-4">
         {{#each skills}}
         <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
-            <small>{{ this.[0] }}</small>
+            <span class="strong small">{{ this.[0] }}</span>
         </div>
         <div class="col-print-1 col-3 col-md-2 col-lg-1">
             {{ this.[1] }}
@@ -45,21 +51,51 @@
         {{/each}}
     </div>
 
-    <p>
+    {{#if showintro }}
+<!--    <p>
+    Software Developer. I graduated as
+    Master in de industriele wetenschappen elektronica-<u>ICT</u>
+    at the
+    Katholieke Universiteit Leuven - Campus De Nayer - Sint-Katelijne-Waver.
+
+    My studies included
+    Machine Learning, ASM 8051 library, Web development,
+
+    work includes build/release system, version control sytems, automatic testing
+    </p>-->
+    {{ intro }}
+    {{/if}}
+
+    <!-- <p>
         English poet, playwright and actor, widely regarded as the greatest writer in the English language
         and the world's pre-eminent dramatist. Often called England's national poet and the "Bard of Avon".
         My extant work is including collaborations, consist of approximately 38 plays, 154 sonnets,
         two long narrative poems and a few other verses, some of uncertain authorship.
+    </p> -->
+
+    <h2>Education</h2>
+    <p class="text-justify">
+        {{ education.Title }}
+        <span class="font-weight-light">{{ education.Date }}</span>
+       <br>
+       <span class="font-italic">{{ education.Location}}</span>
     </p>
 
     <h2>Professional Experience</h2>
     {{#each plays}}
     <div class="card mb-4">
         <div class="card-body">
-            <h3>{{ title }}</h3>
-            <p class="text-muted">{{ written }}</p>
+            <h3 class="text-capitalize">{{ title }}</h3>
+            <p>
+                <a href="{{ link }}" class="text-capitalize">
+                    {{ company }}
+                </a>
+                <span class="text-muted">
+                    {{ written }}
+                </span>
+            </p>
 
-            {{{markdown contents }}}
+            {{{contents}}}
 
             <div>
                 {{#each badges }}
@@ -70,19 +106,19 @@
     </div>
     {{/each}}
 
-    <h2>Education</h2>
-    <p>King Edward VI Grammar School in Stratford-upon-Avon [1571 - 1578]</p>
-
-    <h2>Additional Experience</h2>
-
+    <h2>Hobby projects</h2>
     {{#each experience}}
     <div class="card mt-4">
         <div class="card-body">
-            <div class="mb-2"><strong>{{ header }}</strong></div>
-
-            {{{markdown contents }}}
-
+            <div class="mb-2">
+                <a href="{{ source }}" class="text-capitalize">{{ header }}</a>
+                {{#if interactive}}
+                <a href="{{ interactive_link }}" class="badge badge-success">{{ interactive_button }}</a>
+                {{/if}}
+            </div>
+            {{{contents}}}
             <div>
+                <a href="{{ source }}" class="badge badge-info">source</a>
                 {{#each skills }}
                 <span class="badge badge-primary">{{ this }}</span>
                 {{/each}}
