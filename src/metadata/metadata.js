@@ -1,68 +1,92 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  pdfFileName_EN:  `CV_Jelle_Meeus_EN.pdf`,
+  pdfFileName_NL: `CV_Jelle_Meeus_NL.pdf`,
+  name: 'Ing. Jelle Meeus',
+  title: 'Software Developer',
+  pdfName: 'jelle-meeus.software-developer.pdf',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
-                </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'Location': '2580 Putte',
+    'Email': '<a href="mailto:jelle.meeus@hotmail.com">jelle.meeus@hotmail.com</a>',
+    'Language': 'Dutch (native), English (fluent), French (intermediate)',
+    'Driver\'s license': 'B',
   },
   skills: [
-    ['Comedy', '++++'],
-    ['Love', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
+    ['Python', '+++'],
+    ['Git', '+++'],
+    ['Javascript', '++'],
+    // ['Bash', '++'],
+    ['VIM', '++'],
+    ['Linux', '++'],
+    ['Java', '++'],
+    ['CI/CD', '++'],
+    ['C/C++', '++'],
+    ['PL/SQL', '++'],
+    ['8051 ASM', '++'],
+    // ['Verilog', '++'],
+    ['C#', '+'],
+    // ['Perforce', '+'],
+    ['Docker', '+'],
+    // ['Jira', '+'],
   ],
+  showintro: true,
+  intro: `I graduated as
+    Master in de industriële wetenschappen elektronica-ICT
+    from the
+    Katholieke Universiteit Leuven - Campus De Nayer - Sint-Katelijne-Waver.
+
+    My studies include
+    Machine Learning, ASM 8051 library, Web development
+
+    Work includes
+    build/release system, version control sytems, automatic testing`,
+  education: {
+    'Title' : 'Master in de industriële wetenschappen, elektronica-ICT',
+    'Date' : '2018',
+    'Location' :  'Katholieke Universiteit Leuven - Campus De Nayer - Sint-Katelijne-Waver'
+  },
   plays: [
     {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
+      title: 'Machine learning algorithms student',
+      company: 'OneSpan',
+      written: '4 weeks summer 2017',
+      link: 'https://www.onespan.com/',
+      badges: ['Python', 'Java', 'Android'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+      Developed a demo allowing recording and analysis of gait data on an Android wearable device
 `
     },
     {
-      title: 'Twelfth Night',
-      written: '1600 – 1601',
-      badges: ['comedy', 'love'],
+      title: 'Junior Software Engineer Consultant',
+      company: 'Sioux Embedded Systems',
+      link: 'https://www.sioux.eu/',
+      written: 'Nov 18 - Feb 19',
+      badges: ['Python', 'Git', 'Perforce', 'Docker'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
+      I was part of a customer’s internal R&D team migrating Version Control Systems (VCS) from Perforce to Git. A large part of my project was to write tools with existing and new features using Python and Gitlab API. Using the same API, I setup a R&D Internal website to provide an overview of projects that updates nightly. I did smaller IT related tasks, such as setting up automated backups of firewall settings and Jenkins configurations. Also, I wrote some automated tests in an in-house testing framework. 
 `
     },
-    {
-      title: 'The Tragedy of Romeo and Juliet',
-      written: '1595–1596, with a possible early draft written in 1591',
-      badges: ['tragedy', 'death', 'love'],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
-    }
   ],
   experience: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      interactive: false,
+      header: 'Discord weather bot',
+      source: 'https://github.com/Jelle-M/personal-discord-weatherbot',
+      skills: ['Python', 'CI'],
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
+      Receive automated weather updates through discord. Allows for lookup of weather forecast at a location with Dark Sky API and OpenWeatherMap API. The pipeline consists of Travis CI, flake8 and pytest.
 `
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
+      header: 'Bomberman',
+      source: 'https://github.com/Jelle-M/unity-bomberman',
+      skills: ['C#', 'unity'],
       contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
-`
+      Simple example of the 2D Classic Bomberman game made with unity. 
+
+`,
+      interactive: true,
+      interactive_link: 'https://jellemeeus.github.io/unity-bomberman/',
+      interactive_button: 'play here',
     }
   ]
 };
