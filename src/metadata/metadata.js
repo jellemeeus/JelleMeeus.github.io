@@ -23,6 +23,7 @@ module.exports = {
     ['PL/SQL', '++'],
     ['8051 ASM', '++'],
     // ['Verilog', '++'],
+    ['React', '+'],
     ['C#', '+'],
     // ['Perforce', '+'],
     ['Docker', '+'],
@@ -68,12 +69,18 @@ module.exports = {
   ],
   experience: [
     {
-      interactive: false,
-      header: 'Discord weather bot',
-      source: 'https://github.com/Jelle-M/personal-discord-weatherbot',
-      skills: ['Python', 'CI'],
+      interactive: true,
+      header: 'Drawing Cards',
+      source: 'https://github.com/SoglaHash/cards',
+      interactive_link: 'https://soglahash.github.io/cards/',
+      interactive_button: 'demo here',
+      skills: ['React', 'javascript'],
       contents: `
-      Receive automated weather updates through discord. Allows for lookup of weather forecast at a location with Dark Sky API and OpenWeatherMap API. The pipeline consists of Travis CI, flake8 and pytest.
+A card drawing web app created with React hosted in github pages.
+Create and interact with a deck of French-suited SVG rendered cards.
+You can draw one or multiple cards, shuffle, flip over the deck.
+All neatly displayed through React
+with a status bar, menu bar and mouse over interaction.
 `
     },
     {
@@ -81,12 +88,23 @@ module.exports = {
       source: 'https://github.com/Jelle-M/unity-bomberman',
       skills: ['C#', 'unity'],
       contents: `
-      Simple example of the 2D Classic Bomberman game made with unity. 
+      Example of a 2D Classic Bomberman game made with unity.
+      You can play as a bomb laying bunny and walk around a maze to reach a carrot
+      and try not blow yourself up in the process.
 
 `,
       interactive: true,
       interactive_link: 'https://jellemeeus.github.io/unity-bomberman/',
       interactive_button: 'play here',
-    }
+    },
+    {
+      interactive: false,
+      header: 'Discord weather bot',
+      source: 'https://github.com/Jelle-M/personal-discord-weatherbot',
+      skills: ['Python', 'API', 'CI'],
+      contents: `
+      Receive automated weather updates through discord. Allows for lookup of weather forecast at a location with Dark Sky API and OpenWeatherMap API. The pipeline consists of Travis CI, flake8 and pytest.
+`
+    },
   ]
 };
