@@ -29,7 +29,8 @@ module.exports = {
     ['Docker', '+'],
     // ['Jira', '+'],
   ],
-  showintro: true,
+  showintro: false,
+  // Needs editing
   intro: `I graduated as
     Master in de industriële wetenschappen elektronica-ICT
     from the
@@ -45,13 +46,44 @@ module.exports = {
     'Date' : '2018',
     'Location' :  'Katholieke Universiteit Leuven - Campus De Nayer - Sint-Katelijne-Waver'
   },
+  educationprojects: [
+    {
+      interactive: true,
+      title: `Thesis - Continuous unobtrusive user authentication using gait for wearable devices,
+utilising machine learning algorithms`,
+      company: 'Powerpoint Slides',
+      link: './cv_thesis.pdf',
+      written: '',
+      badges: ['Machine Learning', `Biometrics`, 'AI', 'Python', 'Java', 'Android'],
+      contents: `
+In recent years, much research has been done to find new authentication methods that try to avoid explicit input from a user. This techniques use patterns and biometrics from a user to recognize machine learning models. One of these biometrics is the way a person walks. It can be captured by sensors on a smartwatch or smartphone, easily and unobtrusively.
+
+The aim of this thesis is to develop a method that is based on an existing barebone implementation. This application consists of a wearable application to record data and a server application to process this data offline.
+With a study of state-of-the-art recognition of human activity and gait recognition, this implementation was studied, expanded and improved.
+
+In this project, a human activity recognition system was placed in cascade with a gait recognition system to design a continuous gait-based authentication model. These systems are traditional machine learning models and use a new feature-extraction technique that is fast and accurate. The new implementation allows data to be captured, offline to be trained offline on the server and for new data to be evaluated on the wearable. We have explored deep learning, but the traditional approach with manually designed functions performs better.
+
+`
+    },
+    {
+      source:  true,
+      title: `8051 microcontroller instruction set IEEE754 32bit Floating-Point Library`,
+      link: 'https://github.com/jellemeeus/8051FloatingPointLibrary32c',
+      written: '',
+      badges: ['ASM', `8051`, 'aduc832', 'IEEE754'],
+      contents: `
+Implementation of a IEEE754 Floating-Point library on the aduc832 system platform for 8bit 8052 based systems.
+The library allows for correct and fast calculation of the 4 basic operations (+,-,*,/) for two numbers in IEEE754 32b without using MUL/DIV instructions.
+`
+    },
+  ],
   plays: [
     {
       title: 'Machine learning algorithms student',
       company: 'OneSpan',
       written: '4 weeks summer 2017',
       link: 'https://www.onespan.com/',
-      badges: ['Python', 'Java', 'Android'],
+      badges: ['Machine Learning', `Biometrics`, 'AI', 'Python', 'Java', 'Android'],
       contents: `
       Developed a demo allowing recording and analysis of gait data on an Android wearable device
 `
