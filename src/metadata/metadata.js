@@ -17,7 +17,7 @@ module.exports = {
     ['Javascript', '++'],
     // ['Bash', '++'],
     ['VIM', '++'],
-    ['Linux', '++'],
+    //['GNU/Linux', '++'],
     ['Java', '++'],
     ['CI/CD', '++'],
     ['C/C++', '++'],
@@ -157,15 +157,6 @@ with a status bar, menu bar and mouse over interaction.
     },
     {
       interactive: false,
-      header: 'Home Media Server',
-      source: 'https://github.com/jellemeeus/home-media-server',
-      skills: ['Docker'],
-      contents: `
-docker-compose.yml for a home media server stack: transmission (+ openvpn), jackett, radarr, sonarr, lidarr, calibre, calibre-web, plex, soulseekqt
-`
-    },
-    {
-      interactive: false,
       header: 'Automated local and cloud backups with cronjobs',
       source: 'https://github.com/jellemeeus/cronjobs-rsync-rclone-backups',
       skills: ['crontab', 'GNU/Linux', 'rsync', 'rclone'],
@@ -173,6 +164,15 @@ docker-compose.yml for a home media server stack: transmission (+ openvpn), jack
 Easy automated backups to local and remote drives with cronjobs, rsync and rclone.
 
 We can specify which files to upload with filters (*.txt) and easily upload to multiple cloud drives with variable data cap limits.
+`
+    },
+    {
+      interactive: false,
+      header: 'Home Media Server',
+      source: 'https://github.com/jellemeeus/home-media-server',
+      skills: ['Docker'],
+      contents: `
+docker-compose.yml for a Home Media Server stack including: transmission (+ openvpn), jackett, radarr, sonarr, lidarr, calibre, calibre-web, plex, soulseekqt
 `
     },
   ]
