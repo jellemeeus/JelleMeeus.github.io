@@ -67,6 +67,12 @@
         <div class="card-body">
             <h3 class="text-capitalize">{{ title }}</h3>
             <p>
+                <a href="{{ link2 }}" class="text-capitalize">
+                    {{ company2 }}
+                </a>
+                {{#if interactive}}
+                <a href="{{ link2 }}" class="badge badge-success">PDF</a>
+                {{/if}}
                 <a href="{{ link }}" class="text-capitalize">
                     {{ company }}
                 </a>
@@ -93,7 +99,7 @@
     </div>
     {{/each}}
 
-    <h2>Professional Experience</h2>
+    <h2>Work Experience</h2>
     {{#each plays}}
     <div class="card mb-4">
         <div class="card-body">

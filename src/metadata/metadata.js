@@ -9,6 +9,7 @@ module.exports = {
     'Email': '<a href="mailto:jelle.meeus@hotmail.com">jelle.meeus@hotmail.com</a>',
     'Language': 'Dutch (native), English (fluent), French (intermediate)',
     'Driver\'s license': 'B',
+    'Website': '<a href="https://jellemeeus.github.io">https://jellemeeus.github.io</a>'
   },
   skills: [
     ['Python', '+++'],
@@ -23,8 +24,8 @@ module.exports = {
     ['PL/SQL', '++'],
     ['8051 ASM', '++'],
     // ['Verilog', '++'],
-    ['React', '+'],
-    ['C#', '+'],
+    ['React', '++'],
+    ['C#', '++'],
     // ['Perforce', '+'],
     ['Docker', '+'],
     // ['Jira', '+'],
@@ -52,28 +53,22 @@ module.exports = {
       title: `Thesis - Continuous unobtrusive user authentication using gait for wearable devices,
 utilising machine learning algorithms`,
       company: 'Powerpoint Slides',
-      link: './cv_thesis.pdf',
+      company2: 'Text',
+      link2: './thesis_text.pdf',
+      link: './thesis_slides.pdf',
       written: '',
       badges: ['Machine Learning', `Biometrics`, 'AI', 'Python', 'Java', 'Android'],
       contents: `
 In recent years, much research has been done to find new authentication methods
-that try to avoid explicit input from a user. This techniques use patterns and
+that try to avoid explicit input from a user. This teChniques use patterns and
 biometrics from a user to recognize machine learning models. One of these
 biometrics is the way a person walks. It can be captured by sensors on a
 smartwatch or smartphone, easily and unobtrusively.
 
-The aim of this thesis is to develop a method that is based on an existing
-barebone implementation. This application consists of a wearable application to
-record data and a server application to process this data offline.
-With a study of state-of-the-art recognition of human activity and gait
-recognition, this implementation was studied, expanded and improved.
-In this project, a human activity recognition system was placed in cascade with
-a gait recognition system to design a continuous gait-based authentication
-model. These systems are traditional machine learning models and use a new
-feature-extraction technique that is fast and accurate. The new implementation
-allows data to be captured, to be trained offline on the server and for
-new data to be evaluated on the wearable. We have explored deep learning, but
-the traditional approach with manually designed functions performs better.
+      I researched a new feature-extraction technique to allow traditional machine learning models to recognize
+      walking activity and recognize gait in a fast and accurate way. I developed a server application (Python)
+      to process gait data and train models. I implemented a wearable application (Android) to record data
+      and run inference of said trained models in real-time.
 
 `
     },
@@ -109,11 +104,12 @@ The library allows for correct and fast calculation of the 4 basic operations
       written: 'Nov 18 - Feb 19',
       badges: ['Python', 'Git', 'Perforce', 'Docker'],
       contents: `
-      I was part of a customer’s internal R&D team migrating Version Control
-      Systems (VCS) from Perforce to Git. A large part of my project was to
-      write tools with existing and new features using Python and Gitlab API.
-      Using the same API, I setup a R&D Internal website to provide an overview
-      of projects that updates nightly. I did smaller IT related tasks, such as
+      I wrote tools accommodating a customer's migration from a Perforce Version
+      Control System (VCS) to Git. I implemented existing and
+      new features using Python and Gitlab API to meet
+      in-house developer demands. I setup a R&D Internal website
+      (Bootstrap) to provide an overview of projects that updates
+      nightly. I did smaller IT related tasks, such as
       setting up automated backups of firewall settings and Jenkins
       configurations. Also, I wrote some automated tests in an in-house testing
       framework. 
@@ -126,8 +122,8 @@ The library allows for correct and fast calculation of the 4 basic operations
       header: 'Drawing Cards',
       source: 'https://github.com/SoglaHash/cards',
       interactive_link: 'https://soglahash.github.io/cards/',
-      interactive_button: 'demo here',
-      skills: ['React', 'javascript'],
+      interactive_button: 'Demo Here',
+      skills: ['React', 'Javascript'],
       contents: `
 A card drawing web app created with React hosted in github pages.
 Create and interact with a deck of French-suited SVG rendered cards.
@@ -138,27 +134,45 @@ with a status bar, menu bar and mouse over interaction.
     },
     {
       header: 'Bomberman',
-      source: 'https://github.com/Jelle-M/unity-bomberman',
-      skills: ['C#', 'unity'],
+      source: 'https://github.com/SoglaHash/bomberman-godot',
+      skills: ['C#', 'Godot'],
       contents: `
-      Example of a 2D Classic Bomberman game made with unity.
+      Example of a 2D Classic Bomberman game made with godot.
       You can play as a bomb laying bunny and walk around a maze to reach a
-      carrot and try not blow yourself up in the process.
+      carrot and try not to blow yourself up in the process.
 
 `,
       interactive: true,
-      interactive_link: 'https://jellemeeus.github.io/unity-bomberman/',
-      interactive_button: 'play here',
+      interactive_link: 'https://soglahash.github.io/bomberman-godot/',
+      interactive_button: 'Play Here',
     },
     {
       interactive: false,
-      header: 'Discord weather bot',
-      source: 'https://github.com/Jelle-M/personal-discord-weatherbot',
-      skills: ['Python', 'API', 'CI'],
+      header: 'Twitch Compilations From Cluster Data',
+      source: 'https://github.com/SoglaHash/twitch-compilation-from-cluster',
+      skills: ['Python', 'Javascript', 'React', 'ElectronJS', 'Twitch API', 'Youtube API'],
       contents: `
-      Receive automated weather updates through discord. Allows for lookup of
-      weather forecast at a location with Dark Sky API and OpenWeatherMap API.
-      The pipeline consists of Travis CI, flake8 and pytest.
+      Create Twitch compilations and upload to Youtube with ease. Find clips by creators, clip ids, clip urls, game ids, category name, or a cluster based off Twitch Atlas.
+`
+    },
+    {
+      interactive: false,
+      header: 'Home Media Server',
+      source: 'https://github.com/jellemeeus/home-media-server',
+      skills: ['Docker'],
+      contents: `
+docker-compose.yml for a home media server stack: transmission (+ openvpn), jackett, radarr, sonarr, lidarr, calibre, calibre-web, plex, soulseekqt
+`
+    },
+    {
+      interactive: false,
+      header: 'Automated local and cloud backups with cronjobs',
+      source: 'https://github.com/jellemeeus/cronjobs-rsync-rclone-backups',
+      skills: ['crontab', 'GNU/Linux', 'rsync', 'rclone'],
+      contents: `
+Easy automated backups to local and remote drives with cronjobs, rsync and rclone.
+
+We can specify which files to upload with filters (*.txt) and easily upload to multiple cloud drives with variable data cap limits.
 `
     },
   ]
