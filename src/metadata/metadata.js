@@ -107,7 +107,7 @@ The library allows for correct and fast calculation of the 4 basic operations
       I wrote tools accommodating a customer's migration from a Perforce Version
       Control System (VCS) to Git. I implemented existing and
       new features using Python and Gitlab API to meet
-      in-house developer demands. I setup a R&D Internal website
+      developer demands. I setup a R&D Internal website
       (Bootstrap) to provide an overview of projects that updates
       nightly. I did smaller IT related tasks, such as
       setting up automated backups of firewall settings and Jenkins
@@ -152,7 +152,9 @@ with a status bar, menu bar and mouse over interaction.
       source: 'https://github.com/SoglaHash/twitch-compilation-from-cluster',
       skills: ['Python', 'Javascript', 'React', 'ElectronJS', 'Twitch API', 'Youtube API'],
       contents: `
-      Create Twitch compilations and upload to Youtube with ease. Find clips by creators, clip ids, clip urls, game ids, category name, or a cluster based off Twitch Atlas.
+      Create Twitch compilations and upload to Youtube with ease. Find clips by
+      creators, clip ids, clip urls, game ids, category name, or a cluster based
+      on Twitch Atlas.
 `
     },
     {
