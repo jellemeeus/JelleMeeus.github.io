@@ -124,6 +124,25 @@
     </div>
     {{/each}}
 
+    <h2>Open Source Contributions</h2>
+    {{#each opensource}}
+    <div class="card mt-4">
+        <div class="card-body">
+            <div class="mb-2">
+                <a href="{{ website }}" class="text-capitalize">{{ header }}</a>
+            </div>
+            {{{contents}}}
+            <div>
+                <a href="{{ source }}" class="badge badge-info">source</a>
+                <a href="{{ pr }}" class="badge badge-success">contributions</a>
+                {{#each skills }}
+                <span class="badge badge-primary">{{ this }}</span>
+                {{/each}}
+            </div>
+        </div>
+    {{/each}}
+    </div>
+
     <h2>Hobby projects</h2>
     {{#each experience}}
     <div class="card mt-4">
@@ -142,8 +161,8 @@
                 {{/each}}
             </div>
         </div>
-    </div>
     {{/each}}
+    </div>
 </div>
 </body>
 </html>

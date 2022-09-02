@@ -116,6 +116,19 @@ The library allows for correct and fast calculation of the 4 basic operations
 `
     },
   ],
+  opensource: [
+    {
+      header: 'Azerothcore',
+      website: 'https://www.azerothcore.org',
+      source: 'https://github.com/azerothcore/azerothcore-wotlk',
+      pr: 'https://github.com/azerothcore/azerothcore-wotlk/pulls?q=+is%3Apr+author%3ASoglaHash+',
+      skills: ['C++', 'SQL', 'mmorpg', 'emulator', 'game'],
+      contents: `
+Complete Open Source and Modular solution for MMO
+`
+    },
+  ],
+
   experience: [
     {
       interactive: true,
