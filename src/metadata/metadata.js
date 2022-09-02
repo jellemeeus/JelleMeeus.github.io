@@ -121,7 +121,7 @@ The library allows for correct and fast calculation of the 4 basic operations
       header: 'Azerothcore',
       website: 'https://www.azerothcore.org',
       source: 'https://github.com/azerothcore/azerothcore-wotlk',
-      pr: 'https://github.com/azerothcore/azerothcore-wotlk/pulls?q=+is%3Apr+author%3ASoglaHash+',
+      pr: 'https://github.com/azerothcore/azerothcore-wotlk/pulls?q=+is%3Apr+author%3Ajellemeeus+',
       skills: ['C++', 'SQL', 'mmorpg', 'emulator', 'game'],
       contents: `
 Complete Open Source and Modular solution for MMO
@@ -133,8 +133,8 @@ Complete Open Source and Modular solution for MMO
     {
       interactive: true,
       header: 'Drawing Cards',
-      source: 'https://github.com/SoglaHash/cards',
-      interactive_link: 'https://soglahash.github.io/cards/',
+      source: 'https://github.com/jellemeeus/cards',
+      interactive_link: 'https://jellemeeus.github.io/cards/',
       interactive_button: 'Demo Here',
       skills: ['React', 'Javascript'],
       contents: `
@@ -147,7 +147,7 @@ with a status bar, menu bar and mouse over interaction.
     },
     {
       header: 'Bomberman',
-      source: 'https://github.com/SoglaHash/bomberman-godot',
+      source: 'https://github.com/jellemeeus/bomberman-godot',
       skills: ['C#', 'Godot'],
       contents: `
       Example of a 2D Classic Bomberman game made with godot.
@@ -156,13 +156,13 @@ with a status bar, menu bar and mouse over interaction.
 
 `,
       interactive: true,
-      interactive_link: 'https://soglahash.github.io/bomberman-godot/',
+      interactive_link: 'https://jellemeeus.github.io/bomberman-godot/',
       interactive_button: 'Play Here',
     },
     {
       interactive: false,
       header: 'Twitch Compilations From Cluster Data',
-      source: 'https://github.com/SoglaHash/twitch-compilation-from-cluster',
+      source: 'https://github.com/jellemeeus/twitch-compilation-from-cluster',
       skills: ['Python', 'Javascript', 'React', 'ElectronJS', 'Twitch API', 'Youtube API'],
       contents: `
       Create Twitch compilations and upload to Youtube with ease. Find clips by
