@@ -1,6 +1,6 @@
 module.exports = {
-  pdfLocation_EN:  `https://github.com/jellemeeus/resume-CV-pdf/raw/main/EN.pdf`,
-  pdfLocation_NL:  `https://github.com/jellemeeus/resume-CV-pdf/raw/main/NL.pdf`,
+  pdfLocation_EN:  `https://github.com/jellemeeus/resume-CV-pdf/raw/main/CV_Jelle_Meeus_EN.pdf`,
+  pdfLocation_NL:  `https://github.com/jellemeeus/resume-CV-pdf/raw/main/CV_Jelle_Meeus_NL.pdf`,
   name: 'Ing. Jelle Meeus',
   title: 'Software Developer',
   pdfName: 'jelle-meeus.software-developer.pdf',
