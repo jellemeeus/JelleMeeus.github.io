@@ -63,12 +63,12 @@ In recent years, much research has been done to find new authentication methods
 that try to avoid explicit input from a user. This teChniques use patterns and
 biometrics from a user to recognize machine learning models. One of these
 biometrics is the way a person walks. It can be captured by sensors on a
-smartwatch or smartphone, easily and unobtrusively.
+smartwatch or smartphone, easily and unobtrusively
 
       I researched a new feature-extraction technique to allow traditional machine learning models to recognize
       walking activity and recognize gait in a fast and accurate way. I developed a server application (Python)
       to process gait data and train models. I implemented a wearable application (Android) to record data
-      and run inference of said trained models in real-time.
+      and run inference of said trained models in real-time
 
 `
     },
@@ -82,7 +82,7 @@ smartwatch or smartphone, easily and unobtrusively.
 Implementation of a IEEE754 Floating-Point library on the aduc832 system
 platform for 8bit 8052 based systems.
 The library allows for correct and fast calculation of the 4 basic operations
-(+,-,*,/) for two numbers in IEEE754 32b without using MUL/DIV instructions.
+(+,-,*,/) for two numbers in IEEE754 32b without using MUL/DIV instructions
 `
     },
   ],
@@ -112,7 +112,7 @@ The library allows for correct and fast calculation of the 4 basic operations
       nightly. I did smaller IT related tasks, such as
       setting up automated backups of firewall settings and Jenkins
       configurations. Also, I wrote some automated tests in an in-house testing
-      framework. 
+      framework
 `
     },
   ],
@@ -142,7 +142,7 @@ A card drawing web app created with React hosted in github pages.
 Create and interact with a deck of French-suited SVG rendered cards.
 You can draw one or multiple cards, shuffle, flip over the deck.
 All neatly displayed through React
-with a status bar, menu bar and mouse over interaction.
+with a status bar, menu bar and mouse over interaction
 `
     },
     {
@@ -152,7 +152,7 @@ with a status bar, menu bar and mouse over interaction.
       contents: `
       Example of a 2D Classic Bomberman game made with godot.
       You can play as a bomb laying bunny and walk around a maze to reach a
-      carrot and try not to blow yourself up in the process.
+      carrot and try not to blow yourself up in the process
 
 `,
       interactive: true,
@@ -167,7 +167,7 @@ with a status bar, menu bar and mouse over interaction.
       contents: `
       Create Twitch compilations and upload to Youtube with ease. Find clips by
       creators, clip ids, clip urls, game ids, category name, or a cluster based
-      on Twitch Atlas.
+      on Twitch Atlas
 `
     },
     {
@@ -178,7 +178,7 @@ with a status bar, menu bar and mouse over interaction.
       contents: `
 Easy automated backups to local and remote drives with cronjobs, rsync and rclone.
 
-We can specify which files to upload with filters (*.txt) and easily upload to multiple cloud drives with variable data cap limits.
+We can specify which files to upload with filters (*.txt) and easily upload to multiple cloud drives with variable data cap limits
 `
     },
     {
@@ -188,6 +188,15 @@ We can specify which files to upload with filters (*.txt) and easily upload to m
       skills: ['Docker'],
       contents: `
 docker-compose.yml for a Home Media Server stack including: transmission (+ openvpn), jackett, radarr, sonarr, lidarr, calibre, calibre-web, plex, soulseekqt
+`
+    },
+    {
+      interactive: false,
+      header: 'Server status monitor with alerts',
+      source: 'https://github.com/Ella36/flame-unlock-pinger',
+      skills: ['Python', 'Discord bot', 'Blizzard API'],
+      contents: `
+Continuous Discord bot, written in Python, utilizing the Blizzard API to monitor server status and triggering ping alerts in a designated channel upon unlock status
 `
     },
   ]
