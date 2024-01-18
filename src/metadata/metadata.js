@@ -59,17 +59,12 @@ utilising machine learning algorithms`,
       written: '',
       badges: ['Machine Learning', `Biometrics`, 'AI', 'Python', 'Java', 'Android'],
       contents: `
-In recent years, much research has been done to find new authentication methods
-that try to avoid explicit input from a user. This teChniques use patterns and
-biometrics from a user to recognize machine learning models. One of these
-biometrics is the way a person walks. It can be captured by sensors on a
-smartwatch or smartphone, easily and unobtrusively
-
-      I researched a new feature-extraction technique to allow traditional machine learning models to recognize
-      walking activity and recognize gait in a fast and accurate way. I developed a server application (Python)
-      to process gait data and train models. I implemented a wearable application (Android) to record data
-      and run inference of said trained models in real-time
-
+I researched a gait-based authentication method amidst growing interest in non-explicit user input.
+I enhanced an existing barebone implementation, featuring an Android wearable app for data
+recording and a Python server app for offline processing. I integrated human activity and gait recognition
+systems, employing traditional machine learning models and a novel, fast, and accurate feature extraction
+technique. The outcome is a seamless, continuous gait-based authentication system, enabling offline data
+capture, server-based training, and real-time evaluation on a wearable.
 `
     },
     {
@@ -79,10 +74,9 @@ smartwatch or smartphone, easily and unobtrusively
       written: '',
       badges: ['ASM', `8051`, 'aduc832', 'IEEE754'],
       contents: `
-Implementation of a IEEE754 Floating-Point library on the aduc832 system
-platform for 8bit 8052 based systems.
-The library allows for correct and fast calculation of the 4 basic operations
-(+,-,*,/) for two numbers in IEEE754 32b without using MUL/DIV instructions
+Implementation of an IEEE754 Floating-Point library for aduc832 system platform for 8-bit 8052 based systems.
+This library allows for accurate and fast calculations of the four basic operations
+(+, -, *, /) for two numbers in IEEE754 32-bit floating-point format without using MUL/DIV instructions
 `
     },
   ],
@@ -124,8 +118,9 @@ The library allows for correct and fast calculation of the 4 basic operations
       pr: 'https://github.com/azerothcore/azerothcore-wotlk/pulls?q=+is%3Apr+author%3AElla36+',
       skills: ['C++', 'SQL', 'mmorpg', 'emulator', 'game'],
       contents: `
-Complete Open Source and Modular solution for MMO
+Contributed to Azerothcore project, a Complete Open Source and Modular solution for MMOs, by actively submitting pull requests addressing bugs in their Core (C++) and database (SQL). Includes debugging, troubleshooting by identifying and resolving issues in the codebose. Additionally, aided in quality assurance by testing and providing feedback on PRs from other contributors.
 `
+// Fixes to CORE, DB, cpp. Testing PR. 
     },
   ],
 
