@@ -187,6 +187,18 @@ docker-compose.yml for a Home Media Server stack including: transmission (+ open
     },
     {
       interactive: false,
+      header: 'Words vocabulary + pronunciation + definition',
+      source: 'https://github.com/jellemeeus/words',
+      skills: ['Python', 'Jupyter Notebook', 'CI/CD', 'Document Generation'],
+      contents: `
+Easy-to-read and printable vocabulary lists for commonly used English words. The
+lists cover spelling, meaning, example usage, and lexical spelling. The formatted
+lists are ordered alphabetically, by CEFR rating, and randomly. They are
+accessible in pdf and html formats.
+`
+    },
+    {
+      interactive: false,
       header: 'Server status monitor with alerts',
       source: 'https://github.com/Ella36/flame-unlock-pinger',
       skills: ['Python', 'Discord bot', 'Blizzard API'],
