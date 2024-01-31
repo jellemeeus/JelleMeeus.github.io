@@ -206,5 +206,16 @@ accessible in pdf and html formats.
 Continuous Discord bot, written in Python, utilizing the Blizzard API to monitor server status and triggering ping alerts in a designated channel upon unlock status
 `
     },
+    {
+      interactive: false,
+      header: 'Loot addon',
+      source: 'https://github.com/Ella36/Hloot',
+      skills: ['Lua', 'WoW API'],
+      contents: `
+Coupled existing loot distribution addons
+to allow parallel auctioning satisfying
+inhouse demands
+`
+    },
   ]
 };
