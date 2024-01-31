@@ -133,7 +133,7 @@ Contributed to Azerothcore project, a Complete Open Source and Modular solution 
       interactive_button: 'Demo Here',
       skills: ['React', 'Javascript'],
       contents: `
-A card drawing web app created with React hosted in github pages.
+A card drawing web app created with React hosted on github pages.
 Create and interact with a deck of French-suited SVG rendered cards.
 You can draw one or multiple cards, shuffle, flip over the deck.
 All neatly displayed through React
