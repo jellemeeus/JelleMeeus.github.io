@@ -148,14 +148,22 @@
     <div class="card mt-4">
         <div class="card-body">
             <div class="mb-2">
-                <a href="{{ source }}" class="text-capitalize">{{ header }}</a>
+                {{#if source.length}}
+                    <a href="{{ source }}" class="text-capitalize">{{ header }}</a>
+                {{else}}
+                    <a href="javascript:void(0);" class="text-capitalize">{{ header }}</a>
+                {{/if}}
                 {{#if interactive}}
                 <a href="{{ interactive_link }}" class="badge badge-success">{{ interactive_button }}</a>
                 {{/if}}
             </div>
             {{{contents}}}
             <div>
-                <a href="{{ source }}" class="badge badge-info">source</a>
+                {{#if source.length}}
+                    <a href="{{ source }}" class="badge badge-info">source</a>
+                {{else}}
+                    <span class="badge badge-info">source🔒</span>
+                {{/if}}
                 {{#each skills }}
                 <span class="badge badge-primary">{{ this }}</span>
                 {{/each}}

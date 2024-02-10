@@ -210,7 +210,6 @@ Continuous Discord bot, written in Python, utilizing the Blizzard API to monitor
     {
       interactive: false,
       header: 'Loot addon',
-      source: `https://github.com/${alias}/Hloot`,
       skills: ['Lua', 'WoW API'],
       contents: `
 Coupled existing loot distribution addons
