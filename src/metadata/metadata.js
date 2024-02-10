@@ -115,7 +115,7 @@ This library allows for accurate and fast calculations of the four basic operati
       header: 'Azerothcore',
       website: 'https://www.azerothcore.org',
       source: 'https://github.com/azerothcore/azerothcore-wotlk',
-      pr: 'https://github.com/azerothcore/azerothcore-wotlk/pulls?q=+is%3Apr+author%3AElla36+',
+      pr: `https://github.com/azerothcore/azerothcore-wotlk/pulls?q=+is%3Apr+author%3A${atob('RWxsYTM2')}+`,
       skills: ['C++', 'SQL', 'mmorpg', 'emulator', 'game'],
       contents: `
 Contributed to Azerothcore project, a Complete Open Source and Modular solution for MMOs, by actively submitting pull requests addressing bugs in their Core (C++) and database (SQL). Includes debugging, troubleshooting by identifying and resolving issues in the codebose. Additionally, aided in quality assurance by testing and providing feedback on PRs from other contributors.
@@ -200,7 +200,7 @@ accessible in pdf and html formats.
     {
       interactive: false,
       header: 'Server status monitor with alerts',
-      source: 'https://github.com/Ella36/flame-unlock-pinger',
+      source: `https://github.com/${atob('RWxsYTM2')}/flame-unlock-pinger`,
       skills: ['Python', 'Discord bot', 'Blizzard API'],
       contents: `
 Continuous Discord bot, written in Python, utilizing the Blizzard API to monitor server status and triggering ping alerts in a designated channel upon unlock status
@@ -209,7 +209,7 @@ Continuous Discord bot, written in Python, utilizing the Blizzard API to monitor
     {
       interactive: false,
       header: 'Loot addon',
-      source: 'https://github.com/Ella36/Hloot',
+      source: `https://github.com/${atob('RWxsYTM2')}/Hloot`,
       skills: ['Lua', 'WoW API'],
       contents: `
 Coupled existing loot distribution addons
