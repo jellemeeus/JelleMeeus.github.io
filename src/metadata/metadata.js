@@ -41,7 +41,7 @@ module.exports = {
     Machine Learning, ASM 8051 library, Web development
 
     Work includes
-    build/release system, version control sytems, automatic testing`,
+    build/release system, version control systems, automatic testing`,
   education: {
     'Title' : 'Master in de industriële wetenschappen, elektronica-ICT',
     'Date' : '2018',
@@ -118,7 +118,7 @@ This library allows for accurate and fast calculations of the four basic operati
       pr: `https://github.com/azerothcore/azerothcore-wotlk/pulls?q=+is%3Apr+author%3Ajellemeeus+`,
       skills: ['C++', 'SQL', 'mmorpg', 'emulator', 'game'],
       contents: `
-Contributed to Azerothcore project, a Complete Open Source and Modular solution for MMOs, by actively submitting pull requests addressing bugs in their Core (C++) and database (SQL). Includes debugging, troubleshooting by identifying and resolving issues in the codebose. Additionally, aided in quality assurance by testing and providing feedback on PRs from other contributors.
+Contributed to Azerothcore project, a Complete Open Source and Modular solution for MMOs, by actively submitting pull requests addressing bugs in their Core (C++) and database (SQL). Includes debugging, troubleshooting by identifying and resolving issues in the codebase. Additionally, aided in quality assurance by testing and providing feedback on PRs from other contributors.
 `
 // Fixes to CORE, DB, cpp. Testing PR. 
     },
@@ -209,12 +209,19 @@ Continuous Discord bot, written in Python, utilizing the Blizzard API to monitor
     {
       interactive: false,
       header: 'Loot addon',
-      source: `https://github.com/jellemeeus/hloot`,
+      source: `https://github.com/jellemeeus/floot`,
       skills: ['Lua', 'WoW API'],
       contents: `
-Coupled existing loot distribution addons
-to allow parallel auctioning satisfying
-inhouse demands
+loot distribution addon that allows for parallel auctioning
+`
+    },
+    {
+      interactive: false,
+      header: 'Auction',
+      source: `https://github.com/jellemeeus/auction`,
+      skills: ['Vue', 'Typescript', 'Javascript', 'dotnet', 'C#', 'Lua', 'MongoDB', 'WoW API'],
+      contents: `
+web app were you can create a room, invite others and bid on auctions simultaneously in real time. Export and import ingame auctions with FLoot addon
 `
     },
   ]
