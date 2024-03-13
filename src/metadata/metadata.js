@@ -9,7 +9,8 @@ module.exports = {
     'Email': '<a href="mailto:jelle.meeus@hotmail.com">jelle.meeus@hotmail.com</a>',
     'Language': 'Dutch (native), English (fluent), French (intermediate)',
     'Driver\'s license': 'B',
-    'Website': '<a href="https://jellemeeus.github.io">https://jellemeeus.github.io</a>'
+    'Website': '<a href="https://jellemeeus.be">https://jellemeeus.be</a>',
+    'Github': '<a href="https://github.com/jellemeeus">jellemeeus</a>'
   },
   skills: [
     ['Python', '+++'],
@@ -212,7 +213,7 @@ Continuous Discord bot, written in Python, utilizing the Blizzard API to monitor
       source: `https://github.com/jellemeeus/floot`,
       skills: ['Lua', 'WoW API'],
       contents: `
-loot distribution addon that allows for parallel auctioning
+Loot distribution addon that allows for parallel auctioning
 `
     },
     {
@@ -221,7 +222,7 @@ loot distribution addon that allows for parallel auctioning
       source: `https://github.com/jellemeeus/auction`,
       skills: ['Vue', 'Typescript', 'Javascript', 'dotnet', 'C#', 'Lua', 'MongoDB', 'WoW API'],
       contents: `
-web app were you can create a room, invite others and bid on auctions simultaneously in real time. Export and import ingame auctions with FLoot addon
+Web app were you can create a room, invite others and bid on auctions simultaneously in real time. Export and import ingame auctions with FLoot addon
 `
     },
   ]
