@@ -1,6 +1,6 @@
 module.exports = {
-  pdfLocation_EN:  `https://github.com/jellemeeus/resume-CV-pdf/raw/main/CV_Jelle_Meeus_EN.pdf`,
-  pdfLocation_NL:  `https://github.com/jellemeeus/resume-CV-pdf/raw/main/CV_Jelle_Meeus_NL.pdf`,
+  pdfLocation_EN: `https://github.com/jellemeeus/resume-CV-pdf/raw/main/CV_Jelle_Meeus_EN.pdf`,
+  pdfLocation_NL: `https://github.com/jellemeeus/resume-CV-pdf/raw/main/CV_Jelle_Meeus_NL.pdf`,
   name: 'Ing. Jelle Meeus',
   title: 'Software Developer',
   pdfName: 'jelle-meeus.software-developer.pdf',
@@ -49,9 +49,9 @@ module.exports = {
     Work includes
     build/release system, version control systems, automatic testing`,
   education: {
-    'Title' : 'Master in de industriële wetenschappen, elektronica-ICT',
-    'Date' : '2018',
-    'Location' :  'Katholieke Universiteit Leuven - Campus De Nayer - Sint-Katelijne-Waver'
+    'Title': 'Master in de industriële wetenschappen, elektronica-ICT',
+    'Date': '2018',
+    'Location': 'Katholieke Universiteit Leuven - Campus De Nayer - Sint-Katelijne-Waver'
   },
   educationprojects: [
     {
@@ -74,7 +74,7 @@ capture, server-based training, and real-time evaluation on a wearable.
 `
     },
     {
-      source:  true,
+      source: true,
       title: `8051 microcontroller instruction set IEEE754 32bit Floating-Point Library`,
       link: 'https://github.com/jellemeeus/8051FloatingPointLibrary32c',
       written: '',
@@ -126,7 +126,7 @@ This library allows for accurate and fast calculations of the four basic operati
       contents: `
 Contributed to Azerothcore project, a Complete Open Source and Modular solution for MMOs, by actively submitting pull requests addressing bugs in their Core (C++) and database (SQL). Includes debugging, troubleshooting by identifying and resolving issues in the codebase. Additionally, aided in quality assurance by testing and providing feedback on PRs from other contributors.
 `
-// Fixes to CORE, DB, cpp. Testing PR. 
+      // Fixes to CORE, DB, cpp. Testing PR. 
     },
   ],
 
