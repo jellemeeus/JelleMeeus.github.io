@@ -151,9 +151,7 @@ with a status bar, menu bar and mouse over interaction
       source: 'https://github.com/jellemeeus/bomberman-godot',
       skills: ['C#', 'Godot'],
       contents: `
-      Example of a 2D Classic Bomberman game made with godot.
-      You can play as a bomb laying bunny and walk around a maze to reach a
-      carrot and try not to blow yourself up in the process
+      Example of a 2D Classic Bomberman game made with godot
 
 `,
       interactive: true,
