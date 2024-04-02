@@ -98,7 +98,7 @@ This library allows for accurate and fast calculations of the four basic operati
 `
     },
     {
-      title: 'Software Engineer Consultant',
+      title: 'Software Engineer',
       company: 'Sioux Embedded Systems',
       link: 'https://www.sioux.eu/',
       written: 'Nov 18 - Feb 19',
