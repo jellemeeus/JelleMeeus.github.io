@@ -164,7 +164,7 @@ with a status bar, menu bar and mouse over interaction
       interactive: false,
       header: 'Twitch Compilations From Cluster Data',
       source: 'https://github.com/jellemeeus/twitch-compilation-from-cluster',
-      skills: ['Python', 'Javascript', 'React', 'ElectronJS', 'Twitch API', 'Youtube API'],
+      skills: ['Python', 'Javascript', 'React', 'Electron', 'Vue', 'Typescript', 'Twitch API', 'Youtube API'],
       contents: `
       Create Twitch compilations and upload to Youtube with ease. Find clips by
       creators, clip ids, clip urls, game ids, category name, or a cluster based
