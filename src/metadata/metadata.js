@@ -147,6 +147,17 @@ with a status bar, menu bar and mouse over interaction
 `
     },
     {
+      header: 'Audio Soundboard',
+      source: 'https://github.com/jellemeeus/audio-soundboard',
+      skills: ['Vuejs', 'Nuxt', 'Typescript'],
+      contents: `
+A soundboard app to play stereo audio samples.
+`,
+      interactive: true,
+      interactive_link: 'https://jellemeeus.github.io/audio-soundboard/',
+      interactive_button: 'Demo Here',
+    },
+    {
       header: 'Bomberman',
       source: 'https://github.com/jellemeeus/bomberman-godot',
       skills: ['C#', 'Godot'],
