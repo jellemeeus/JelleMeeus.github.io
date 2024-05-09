@@ -88,16 +88,6 @@ This library allows for accurate and fast calculations of the four basic operati
   ],
   plays: [
     {
-      title: 'Machine learning algorithms student',
-      company: 'OneSpan',
-      written: '4 weeks summer 2017',
-      link: 'https://www.onespan.com/',
-      badges: ['Machine Learning', `Biometrics`, 'AI', 'Python', 'Java', 'Android'],
-      contents: `
-      Developed a demo allowing recording and analysis of gait data on an Android wearable device
-`
-    },
-    {
       title: 'Software Engineer',
       company: 'Sioux Embedded Systems',
       link: 'https://www.sioux.eu/',
@@ -115,6 +105,17 @@ This library allows for accurate and fast calculations of the four basic operati
       framework
 `
     },
+    {
+      title: 'Machine learning algorithms student',
+      company: 'OneSpan',
+      written: '4 weeks summer 2017',
+      link: 'https://www.onespan.com/',
+      badges: ['Machine Learning', `Biometrics`, 'AI', 'Python', 'Java', 'Android'],
+      contents: `
+      Developed a demo allowing recording and analysis of gait data on an Android wearable device
+`
+    },
+
   ],
   opensource: [
     {
