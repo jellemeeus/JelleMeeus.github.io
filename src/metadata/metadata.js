@@ -136,7 +136,7 @@ Contributed to Azerothcore project, a Complete Open Source and Modular solution 
       interactive: true,
       header: 'Drawing Cards',
       source: 'https://github.com/jellemeeus/cards',
-      interactive_link: 'https://jellemeeus.github.io/cards/',
+      interactive_link: 'https://jellemeeus.be/cards/',
       interactive_button: 'Demo Here',
       skills: ['React', 'Javascript'],
       contents: `
@@ -155,7 +155,7 @@ with a status bar, menu bar and mouse over interaction
 A soundboard app to play stereo audio samples.
 `,
       interactive: true,
-      interactive_link: 'https://jellemeeus.github.io/audio-soundboard/',
+      interactive_link: 'https://jellemeeus.be/audio-soundboard/',
       interactive_button: 'Demo Here',
     },
     {
@@ -167,7 +167,7 @@ A soundboard app to play stereo audio samples.
 
 `,
       interactive: true,
-      interactive_link: 'https://jellemeeus.github.io/bomberman-godot/',
+      interactive_link: 'https://jellemeeus.be/bomberman-godot/',
       interactive_button: 'Play Here',
     },
     {
