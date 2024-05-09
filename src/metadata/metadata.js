@@ -115,7 +115,6 @@ This library allows for accurate and fast calculations of the four basic operati
       Developed a demo allowing recording and analysis of gait data on an Android wearable device
 `
     },
-
   ],
   opensource: [
     {
@@ -148,11 +147,22 @@ with a status bar, menu bar and mouse over interaction
 `
     },
     {
+      header: 'XCOM 2 Custom soldier names',
+      source: 'https://github.com/jellemeeus/xcom2-custom-names',
+      skills: ['Javascript', 'Python', 'Pyodide'],
+      contents: `
+Web app to simplify creating custom soldier pools by generating them programmatically instead of manually renaming each one
+`,
+      interactive: true,
+      interactive_link: 'https://github.com/jellemeeus/xcom2-custom-names',
+      interactive_button: 'Demo Here',
+    },
+    {
       header: 'Audio Soundboard',
       source: 'https://github.com/jellemeeus/audio-soundboard',
       skills: ['Vuejs', 'Nuxt', 'Typescript'],
       contents: `
-A soundboard app to play stereo audio samples.
+A soundboard app to play stereo audio samples
 `,
       interactive: true,
       interactive_link: 'https://jellemeeus.be/audio-soundboard/',
@@ -183,22 +193,20 @@ A soundboard app to play stereo audio samples.
     },
     {
       interactive: false,
-      header: 'Automated local and cloud backups with cronjobs',
-      source: 'https://github.com/jellemeeus/cronjobs-rsync-rclone-backups',
-      skills: ['crontab', 'GNU/Linux', 'rsync', 'rclone'],
+      header: 'Auction',
+      source: `https://github.com/jellemeeus/auction`,
+      skills: ['Vue', 'Typescript', 'Javascript', 'dotnet', 'C#', 'Lua', 'MongoDB', 'WoW API'],
       contents: `
-Easy automated backups to local and remote drives with cronjobs, rsync and rclone.
-
-We can specify which files to upload with filters (*.txt) and easily upload to multiple cloud drives with variable data cap limits
+Web app were you can create a room, invite others and bid on auctions simultaneously in real time. Export and import ingame auctions with FLoot addon
 `
     },
     {
       interactive: false,
-      header: 'Home Media Server',
-      source: 'https://github.com/jellemeeus/home-media-server',
-      skills: ['Docker'],
+      header: 'Loot addon',
+      source: `https://github.com/jellemeeus/floot`,
+      skills: ['Lua', 'WoW API'],
       contents: `
-docker-compose.yml for a Home Media Server stack including: transmission (+ openvpn), jackett, radarr, sonarr, lidarr, calibre, calibre-web, plex, soulseekqt
+Loot distribution addon that allows for parallel bids.  This solution has been successfully used for months, serving hundreds of users who have preferred it over other addons due to its superior performance and user-friendly interface.
 `
     },
     {
@@ -215,29 +223,31 @@ accessible in pdf and html formats.
     },
     {
       interactive: false,
+      header: 'Home Media Server',
+      source: 'https://github.com/jellemeeus/home-media-server',
+      skills: ['Docker'],
+      contents: `
+docker-compose.yml for a Home Media Server stack including: transmission (+ openvpn), jackett, radarr, sonarr, lidarr, calibre, calibre-web, plex, soulseekqt
+`
+    },
+    {
+      interactive: false,
+      header: 'Automated local and cloud backups with cronjobs',
+      source: 'https://github.com/jellemeeus/cronjobs-rsync-rclone-backups',
+      skills: ['crontab', 'GNU/Linux', 'rsync', 'rclone'],
+      contents: `
+Easy automated backups to local and remote drives with cronjobs, rsync and rclone.
+
+We can specify which files to upload with filters (*.txt) and easily upload to multiple cloud drives with variable data cap limits
+`
+    },
+    {
+      interactive: false,
       header: 'Server status monitor with alerts',
       source: `https://github.com/jellemeeus/flame-unlock-pinger`,
       skills: ['Python', 'Discord bot', 'Blizzard API'],
       contents: `
 Continuous Discord bot, written in Python, utilizing the Blizzard API to monitor server status and triggering ping alerts in a designated channel upon unlock status
-`
-    },
-    {
-      interactive: false,
-      header: 'Loot addon',
-      source: `https://github.com/jellemeeus/floot`,
-      skills: ['Lua', 'WoW API'],
-      contents: `
-Loot distribution addon that allows for parallel auctioning
-`
-    },
-    {
-      interactive: false,
-      header: 'Auction',
-      source: `https://github.com/jellemeeus/auction`,
-      skills: ['Vue', 'Typescript', 'Javascript', 'dotnet', 'C#', 'Lua', 'MongoDB', 'WoW API'],
-      contents: `
-Web app were you can create a room, invite others and bid on auctions simultaneously in real time. Export and import ingame auctions with FLoot addon
 `
     },
   ]
