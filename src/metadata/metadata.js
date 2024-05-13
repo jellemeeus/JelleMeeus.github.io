@@ -121,12 +121,12 @@ This library allows for accurate and fast calculations of the four basic operati
       header: 'Azerothcore',
       website: 'https://www.azerothcore.org',
       source: 'https://github.com/azerothcore/azerothcore-wotlk',
-      pr: `https://github.com/azerothcore/azerothcore-wotlk/pulls?q=+is%3Apr+author%3Ajellemeeus+`,
+      pr: `https://github.com/azerothcore/azerothcore-wotlk/pulls?q=+is%3Apr+author%3Asogladev+`,
       skills: ['C++', 'SQL', 'mmorpg', 'emulator', 'game'],
       contents: `
 Contributed to Azerothcore project, a Complete Open Source and Modular solution for MMOs, by actively submitting pull requests addressing bugs in their Core (C++) and database (SQL). Includes debugging, troubleshooting by identifying and resolving issues in the codebase. Additionally, aided in quality assurance by testing and providing feedback on PRs from other contributors.
 `
-      // Fixes to CORE, DB, cpp. Testing PR. 
+      // Fixes to CORE, DB, cpp. Testing PR.
     },
   ],
 
