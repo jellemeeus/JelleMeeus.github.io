@@ -10,7 +10,7 @@ module.exports = {
     'Language': 'Dutch (native), English (fluent), French (intermediate)',
     'Driver\'s license': 'B',
     'Website': '<a href="https://jellemeeus.be">https://jellemeeus.be</a>',
-    'Github': '<a href="https://github.com/jellemeeus">jellemeeus</a>'
+    'Github': '<a href="https://github.com/sogladev">sogladev</a>'
   },
   skills: [
     ['Python', '+++'],
